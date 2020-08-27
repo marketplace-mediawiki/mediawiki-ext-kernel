@@ -1,0 +1,45 @@
+{
+  "name": "MW_EXT_Kernel",
+  "version": "1.0.0",
+  "author": [
+    "[https://dunaev.dev/ Yu Dunaev (dun43v)]",
+    "..."
+  ],
+  "url": "https://gitlab.com/marketplace-mediawiki",
+  "descriptionmsg": "mw-ext-kernel-desc",
+  "license-name": "[https://gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
+  "type": "parserhook",
+  "require": {
+    "MediaWiki": ">= 1.31.0"
+  },
+  "AutoloadClasses": {
+    "MediaWiki\\Extension\\Marketplace\\MW_EXT_Kernel": "MW_EXT_Kernel.class.php"
+  },
+  "Hooks": {
+    "BeforePageDisplay": [
+      "MediaWiki\\Extension\\Marketplace\\MW_EXT_Kernel::onBeforePageDisplay"
+    ]
+  },
+  "MessagesDirs": {
+    "MW_EXT_Kernel": [
+      "i18n"
+    ]
+  },
+  "ResourceModules": {
+    "ext.mw.kernel.styles": {
+      "styles": [
+        "styles/theme.css"
+      ],
+      "position": "top",
+      "targets": [
+        "desktop",
+        "mobile"
+      ]
+    }
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "modules",
+    "remoteExtPath": "MW_EXT_Kernel/modules"
+  },
+  "manifest_version": 2
+}

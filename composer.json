@@ -1,0 +1,50 @@
+{
+  "name": "marketplace/mediawiki-ext-kernel",
+  "type": "mediawiki-extension",
+  "description": "MediaWiki Marketplace Kernel extension.",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://gitlab.com/marketplace-mediawiki",
+  "keywords": [
+    "mediawiki",
+    "kernel"
+  ],
+  "authors": [
+    {
+      "name": "z1729 Factory",
+      "email": "z1729.factory@gmail.com",
+      "homepage": "https://z1729.com/",
+      "role": "Developer"
+    },
+    {
+      "name": "Yu Dunaev (dun43v)",
+      "email": "dun43v@gmail.com",
+      "homepage": "https://dunaev.dev/",
+      "role": "Developer"
+    },
+    {
+      "name": "Kitsune Solar",
+      "email": "kitsune.solar@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://gitlab.com/marketplace-mediawiki/mediawiki-ext-kernel/issues",
+    "source": "https://gitlab.com/marketplace-mediawiki/mediawiki-ext-kernel"
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "marketplace/mediawiki-ext-kernel": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "MW_EXT_Kernel.class.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "prepend-autoloader": false
+  },
+  "extra": {
+    "installer-name": "MW_EXT_Kernel"
+  }
+}
