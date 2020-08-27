@@ -5,7 +5,7 @@
     "[https://dunaev.dev/ Yu Dunaev (dun43v)]",
     "..."
   ],
-  "url": "https://gitlab.com/marketplace-mediawiki",
+  "url": "https://github.com/marketplace-mediawiki",
   "descriptionmsg": "mw-ext-kernel-desc",
   "license-name": "[https://gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
   "type": "parserhook",
