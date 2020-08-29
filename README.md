@@ -1,8 +1,8 @@
-# Information / Информация
+# Information
 
 Фундамент для модулей платформы MediaWiki.
 
-## Install / Установка
+## Install
 
 1. Загрузите папки и файлы в директорию `extensions/MW_EXT_Kernel`.
 2. В самый низ файла `LocalSettings.php` добавьте строку:
@@ -11,12 +11,12 @@
 wfLoadExtension( 'MW_EXT_Kernel' );
 ```
 
-## Syntax / Синтаксис
+## Syntax
 
 ```html
 
 ```
 
-## Donations / Пожертвования
+## Donations
 
 - [Donation Form](https://donation-form.github.io/)
